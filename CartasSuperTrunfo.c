@@ -2,7 +2,8 @@
 
 
 int main() {
-    prinf("Super_Trunfo.c!\n");
+    printf("Super_Trunfo.c!\n");
+    printf("novo commit!\n");
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
     // Cadastro das Cartas:
