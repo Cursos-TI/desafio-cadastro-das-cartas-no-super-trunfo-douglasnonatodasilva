@@ -2,7 +2,7 @@
 
 
 int main() {
-    printf("Super_Trunfo.c!\n");
+    printf("CartasSuperTrunfo.c!\n");
     printf("novo commit!\n");
 
     char Estado [50];
@@ -11,9 +11,28 @@ int main() {
     int Populacao;
     float Área;
     float  Pib;
-    int pontos,Turisticos;
+    int Pontos, Turisticos;
 
-    printf("digite o nome do estado")
+    printf("digite o nome do estado:\n");
+    scanf("%c", &Estado);
+
+    printf("digite o codigo da carta:\n");
+    scanf("%c", &"A01");
+
+    printf("digite o nome da Cidade:\n");
+    scanf("%c", &Cidade);
+
+    printf("digite o numero o numero de Habitantes:\n");
+    scanf("%d", &Populacao);
+
+    printf("digite a Área:\n");
+    scanf("%f", &Área);
+
+    printf("digite o Pib:\n");
+    scanf("%f", &Pib);
+
+    printf("digite os pontos, turisticos:\n");
+    scanf("%d", &Pontos,Turisticos);
 
 
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
