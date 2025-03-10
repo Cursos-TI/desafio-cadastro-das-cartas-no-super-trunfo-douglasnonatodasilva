@@ -5,13 +5,15 @@ int main() {
     printf("Super_Trunfo.c!\n");
     printf("novo commit!\n");
 
-    char Estado [30];
-    char Codigo [A01];
+    char Estado [50];
+    char Codigodacarta;
     char Cidade;
-    int Populacao 2,418,000.00;
-    float Área (km²) 693442;
-    float  Pib 62.954.487,49;
-    int Numero de pontos Turísticos 10;
+    int Populacao;
+    float Área;
+    float  Pib;
+    int pontos,Turisticos;
+
+    printf("digite o nome do estado")
 
 
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
