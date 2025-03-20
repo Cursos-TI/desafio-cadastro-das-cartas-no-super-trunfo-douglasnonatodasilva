@@ -34,13 +34,13 @@ int main() {
     printf("digite os pontos, turisticos:\n");
     scanf("%d", &Pontos,Turisticos);
 
-    printf("Nome do Estado: - %c", Estado);
-    printf("codigo da carta: - %c", "A01");
-    printf("Nome da Cidade: - %c", Cidade);
-    printf("Numero de Habitantes: - %d", Populacao);
-    printf("Área da Cidade: - %f", Área);
-    printf("Pib da Cidade: - %f", Pib);
-    printf("Pontos Turisticos: - %d", Pontos, Turisticos);
+    printf("Nome do Estado:  %c", Estado);
+    printf("codigo da carta: %c", "A01");
+    printf("Nome da Cidade: %c", Cidade);
+    printf("Numero de Habitantes: %d", Populacao);
+    printf("Área da Cidade: %f", Área);
+    printf("Pib da Cidade: %f", Pib);
+    printf("Pontos Turisticos: %d", PontosTuristicos);
 
     return 0;
 
